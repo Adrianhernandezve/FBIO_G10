@@ -5375,7 +5375,7 @@
             "padding-bottom": "(@paddingBottom * 1rem)",
             "background-color": "@bgColor",
             ".mbr-text": {
-              "color": "#ffffff"
+              "color": "#000000"
             }
           },
           "_name": "content5",

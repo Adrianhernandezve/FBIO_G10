@@ -42,11 +42,11 @@ body {
 }
 .display-7 {
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   line-height: 1.5;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -80,9 +80,9 @@ body {
     line-height: calc( 1.4 * (1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
-    font-size: 1.12rem;
-    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.96rem;
+    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -7234,7 +7234,7 @@ a {
 .cid-sbbc9OOEVM {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #fff0b0;
+  background-color: #ffe161;
 }
 .cid-sbb8AAs73r {
   padding-top: 5rem;
@@ -7244,7 +7244,7 @@ a {
 .cid-sbbqVlaJgj {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #fff0b0;
+  background-color: #ffe161;
 }
 .cid-sbbuAmUMIS {
   padding-top: 5rem;
@@ -7254,22 +7254,32 @@ a {
 .cid-sbb1TnQ5qD {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #ffffff;
+  background-color: #2299aa;
 }
 .cid-sbbd4omxlq {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #ffffff;
+  background-color: #9fdbf8;
+}
+.cid-sbbVyRu7BP {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #40b0bf;
 }
 .cid-sbbi6SkJrQ {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #ffffff;
+  background-color: #9fdbf8;
 }
 .cid-sbbn7Oy9Kl {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #ffffff;
+  background-color: #65c6d4;
+}
+.cid-sbbX2VTZjL {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #98dee8;
 }
 .cid-sbaXeujMLv {
   padding-top: 5rem;

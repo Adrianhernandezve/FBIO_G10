@@ -7462,6 +7462,53 @@ a {
   padding-bottom: 5rem;
   background-color: #9fdbf8;
 }
+.cid-sc0hA9Nx0n {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #65c6d4;
+}
+.cid-sc0hA9Nx0n .item:focus,
+.cid-sc0hA9Nx0n span:focus {
+  outline: none;
+}
+.cid-sc0hA9Nx0n .item {
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+.cid-sc0hA9Nx0n .item-wrapper {
+  position: relative;
+  border-radius: 4px;
+  background: #98dee8;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+@media (min-width: 992px) {
+  .cid-sc0hA9Nx0n .item-wrapper .item-content {
+    padding: 2rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-sc0hA9Nx0n .item-wrapper .item-content {
+    padding: 1rem;
+  }
+}
+.cid-sc0hA9Nx0n .mbr-section-btn {
+  margin-top: auto !important;
+}
+.cid-sc0hA9Nx0n .mbr-section-title {
+  color: #232323;
+}
+.cid-sc0hA9Nx0n .mbr-text,
+.cid-sc0hA9Nx0n .mbr-section-btn {
+  text-align: left;
+}
+.cid-sc0hA9Nx0n .item-title {
+  text-align: center;
+}
+.cid-sc0hA9Nx0n .item-subtitle {
+  text-align: center;
+}
 .cid-sbbn7Oy9Kl {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -7476,6 +7523,53 @@ a {
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: #40b0bf;
+}
+.cid-sc0hBggHbl {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #40b0bf;
+}
+.cid-sc0hBggHbl .item:focus,
+.cid-sc0hBggHbl span:focus {
+  outline: none;
+}
+.cid-sc0hBggHbl .item {
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+.cid-sc0hBggHbl .item-wrapper {
+  position: relative;
+  border-radius: 4px;
+  background: #9fdbf8;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+@media (min-width: 992px) {
+  .cid-sc0hBggHbl .item-wrapper .item-content {
+    padding: 2rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-sc0hBggHbl .item-wrapper .item-content {
+    padding: 1rem;
+  }
+}
+.cid-sc0hBggHbl .mbr-section-btn {
+  margin-top: auto !important;
+}
+.cid-sc0hBggHbl .mbr-section-title {
+  color: #232323;
+}
+.cid-sc0hBggHbl .mbr-text,
+.cid-sc0hBggHbl .mbr-section-btn {
+  text-align: left;
+}
+.cid-sc0hBggHbl .item-title {
+  text-align: center;
+}
+.cid-sc0hBggHbl .item-subtitle {
+  text-align: center;
 }
 .cid-sbaXeujMLv {
   padding-top: 5rem;

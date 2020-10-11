@@ -9906,17 +9906,24 @@ a {
   }
 }
 .cid-sd3J5Ej2kA {
-  background-image: url("../../../assets/images/background11.jpg");
+  background-image: url("../../../assets/images/mbr-1920x1280.jpg");
+}
+.cid-sd3J5Ej2kA .mbr-section-title {
+  color: #ffe885;
+}
+.cid-sd3J5Ej2kA .mbr-text,
+.cid-sd3J5Ej2kA .mbr-section-btn {
+  color: #ffe885;
 }
 .cid-sd3JSHLYHM {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #ffffff;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #ffcf00;
 }
 .cid-sd5xe0NM6M {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-color: #ffffff;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #ffe161;
 }
 .cid-sd5xe0NM6M .item:focus,
 .cid-sd5xe0NM6M span:focus {
@@ -9937,7 +9944,7 @@ a {
 .cid-sd5xe0NM6M .item-wrapper {
   position: relative;
   border-radius: 4px;
-  background: #fafafa;
+  background: #fff0b0;
   height: 100%;
   display: flex;
   flex-flow: column nowrap;
@@ -9959,9 +9966,9 @@ a {
   color: #232323;
 }
 .cid-sd5zAkJvxb {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-color: #ffffff;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #ffe885;
 }
 .cid-sd5zAkJvxb .item:focus,
 .cid-sd5zAkJvxb span:focus {
@@ -10005,13 +10012,13 @@ a {
 }
 .cid-sd3JTU2ypt {
   padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #ffffff;
+  padding-bottom: 0rem;
+  background-color: #ffe161;
 }
 .cid-sd3JWWaBa7 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-color: #ffffff;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  background-color: #ffe161;
 }
 @media (max-width: 991px) {
   .cid-sd3JWWaBa7 .image-wrapper {
@@ -10028,22 +10035,6 @@ a {
   padding-top: 5rem;
   padding-bottom: 0rem;
   background-color: #ffffff;
-}
-.cid-sd3JcBt91t {
-  padding-top: 2rem;
-  padding-bottom: 5rem;
-  background-color: #ffffff;
-}
-@media (max-width: 991px) {
-  .cid-sd3JcBt91t .image-wrapper {
-    margin-bottom: 1rem;
-  }
-}
-.cid-sd3JcBt91t .row {
-  flex-direction: row-reverse;
-}
-.cid-sd3JcBt91t img {
-  width: 100%;
 }
 .cid-s9LnWfdHXQ {
   padding-top: 3rem;

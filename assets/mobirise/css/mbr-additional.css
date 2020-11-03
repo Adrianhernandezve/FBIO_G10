@@ -9181,54 +9181,6 @@ a {
   text-align: center;
   color: #232323;
 }
-.cid-scEv3rHmnf {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-color: #ffe161;
-}
-.cid-scEv3rHmnf .item:focus,
-.cid-scEv3rHmnf span:focus {
-  outline: none;
-}
-.cid-scEv3rHmnf .item {
-  cursor: pointer;
-  margin-bottom: 2rem;
-}
-.cid-scEv3rHmnf .item-wrapper {
-  position: relative;
-  border-radius: 4px;
-  background: #fff0b0;
-  height: 100%;
-  display: flex;
-  flex-flow: column nowrap;
-}
-@media (min-width: 992px) {
-  .cid-scEv3rHmnf .item-wrapper .item-content {
-    padding: 2rem;
-  }
-}
-@media (max-width: 991px) {
-  .cid-scEv3rHmnf .item-wrapper .item-content {
-    padding: 1rem;
-  }
-}
-.cid-scEv3rHmnf .mbr-section-btn {
-  margin-top: auto !important;
-}
-.cid-scEv3rHmnf .mbr-section-title {
-  color: #232323;
-}
-.cid-scEv3rHmnf .mbr-text,
-.cid-scEv3rHmnf .mbr-section-btn {
-  text-align: center;
-}
-.cid-scEv3rHmnf .item-title {
-  text-align: center;
-}
-.cid-scEv3rHmnf .item-subtitle {
-  text-align: center;
-  color: #232323;
-}
 .cid-scEBOd1qdI {
   padding-top: 5rem;
   padding-bottom: 0rem;
@@ -10999,7 +10951,7 @@ a {
 }
 .cid-sffsVhDhCK {
   padding-top: 5rem;
-  padding-bottom: 3rem;
+  padding-bottom: 0rem;
   background-color: #ffe885;
 }
 .cid-sfftdEjbUA {

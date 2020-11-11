@@ -11587,6 +11587,27 @@ a {
     padding: 2rem;
   }
 }
+.cid-sg2Eu5FFow {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  background-color: #ffe885;
+}
+.cid-sg2ErSBtSW {
+  padding-top: 0rem;
+  padding-bottom: 1rem;
+  background-color: #ffe885;
+}
+@media (max-width: 991px) {
+  .cid-sg2ErSBtSW .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-sg2ErSBtSW .row {
+  flex-direction: row-reverse;
+}
+.cid-sg2ErSBtSW img {
+  width: 100%;
+}
 .cid-sfXgltuXFD {
   padding-top: 6rem;
   padding-bottom: 0rem;

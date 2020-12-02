@@ -29,13 +29,13 @@
         "isScrollToTopButton": false
       },
       "additionalSetColors": [
+        "#a26cc9",
         "#571164",
         "#482767",
         "#f1deff",
         "#deaeff",
         "#be61ff",
-        "#a18bb5",
-        "#ffcc00"
+        "#a18bb5"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -52,7 +52,7 @@
         "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 614,
+    "uniqCompNum": 619,
     "versionPublish": "5.0.29",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -19391,11 +19391,11 @@
           "_name": "content5",
           "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#482767\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b>\n                    Nota: </b>Para la masa se ha considerado el peso de todos los componentes, que se han encontrado en diversos sitios web [1] [2] [3] [4] [5] [6]</p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "shWujuq5g9",
+          "_anchor": "content5-h0",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content5-h0"
+          "_params": {}
         },
         {
           "alias": false,
@@ -19640,11 +19640,122 @@
           "_name": "image4",
           "_customHTML": "<section class=\"image4\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#cb82fe\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"col-12 col-lg-6\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/simulacion-todo-junto-794x548.png\" alt=\"Mobirise\">\n                    <p class=\"mbr-description mbr-fonts-style mt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showDescription\" data-app-selector=\".mbr-description\">\n                        Simulación del circuito completo</p>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-6\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/simulacion-ppm-737x587.png\" alt=\"Mobirise\">\n                    <p class=\"mbr-text mbr-fonts-style mt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showDescription\" data-app-selector=\".mbr-description\">Simulación ppm elaborada en proteus</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "shWtlVavcf",
+          "_anchor": "image4-gz",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-section-title": {
+              "text-align": "center",
+              "color": "#ffffff"
+            },
+            ".mbr-text": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#a26cc9\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Desarrollo de encuestas</b></h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Se le consultó a familiares acerca de nuestro proyecto para obtener retroalimentación como usuarios. Las preguntas consultadas fueron las siguientes:<br><br><b>1.- </b>¿Considera que la elección de los signos vitales a medir es la adecuada para monitorear el estado de un paciente asintomático?\n<br><b>2.-</b> ¿Qué tipo de tela le parecería la adecuada para un dispositivo de esta naturaleza?\n<br><b>3.-</b> ¿Considerando sus especificaciones técnicas, le parece que el dispositivo sería cómodo de usar?&nbsp;<br><b>4.-</b> ¿Considera que la implementación de este proyecto, en el mercado y sistema de salud peruano, es viable?&nbsp;<br><b>5.-</b> ¿Qué considera que podríamos mejorar, tanto en el dispositivo como en la aplicación?&nbsp;<br><b>6.-</b> ¿Considera que es importante la implementación de la sección \"consejos\" en la aplicación? ¿Cómo influye el estado de ánimo de los pacientes asintomáticos?<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "si2ljwtZ53",
+          "_anchor": "content5-h4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".image-wrapper": {
+              "width": "50px",
+              "height": "50px",
+              "border-radius": "50%",
+              "margin-top": "5px",
+              "margin-right": "1rem",
+              "overflow": "hidden",
+              "img": {
+                "height": "100%",
+                "width": "100%",
+                "object-fit": "cover"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            ".mbr-text": {
+              "color": "#ffffff"
+            },
+            ".name": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "testimonials2",
+          "_customHTML": "<section class=\"testimonials2\" group=\"Testimonials\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons2\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Name\" name=\"showName\" checked>\n        <input type=\"checkbox\" title=\"Position\" name=\"showPosition\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#a26cc9\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n            <b>Respuestas de los usuarios</b></h3>\n        <div class=\"row justify-content-center\">\n            <div class=\"card col-12 col-md-6\">\n                <p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">1.-&nbsp;Tal vez podría haberse considerado la frecuencia respiratoria.<br>2.-&nbsp;Sería ideal tener un material con mayor porcentaje de algodon y microfibra.<br>3.-&nbsp;Se ve acolchonado, si se ve cómodo.<br>4.-&nbsp;No tengo conocimiento sobre mercadeo, pero supongo que sí.<br>5.-&nbsp;Indicar como se carga el dispositivo, cuanto dura la bateria, mostrar varios colores en la tela.<br>6.-&nbsp;Sí, siempre es bueno informarse y aprender de los cuidados.</p>\n                <div class=\"d-flex mb-md-0 mb-4\">\n                    <div class=\"image-wrapper\">\n                        <img src=\"@PROJECT_PATH@/assets/images/mbr-100x98.png\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"text-wrapper\">\n                        <p class=\"name mbr-fonts-style mb-1\" mbr-if=\"showName\" mbr-theme-style=\"display-4\" data-app-selector=\".name\"><b>Vany Quispe</b></p>\n                        <p class=\"position mbr-fonts-style\" mbr-if=\"showPosition\" mbr-theme-style=\"display-4\" data-app-selector=\".position\">\n                            <b>Client</b>\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card col-12 col-md-6\">\n                <p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">1.-&nbsp; Sí me parece que la saturación de oxígeno nos puede dar buena noción de su estado de salud.<br>2.-&nbsp;Creo q sería mejor de una resina o plástico para la desinfección.<br>3.-&nbsp;Si sería cómodo y seguro, ya que permite que se use sin quitarse la mascarilla.<br>4.-&nbsp;Todo lo que permita hacer un diagnóstico precoz, tendría un imoacto económico importante.<br>5.-<br>6.-</p>\n                <div class=\"d-flex mb-md-0 mb-4\">\n                    <div class=\"image-wrapper\">\n                        <img src=\"@PROJECT_PATH@/assets/images/mbr-100x98.png\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"text-wrapper\">\n                        <p class=\"name mbr-fonts-style mb-1\" mbr-if=\"showName\" mbr-theme-style=\"display-4\" data-app-selector=\".name\"><b>María Elena Howard</b></p>\n                        <p class=\"position mbr-fonts-style\" mbr-if=\"showPosition\" mbr-theme-style=\"display-4\" data-app-selector=\".position\">\n                            <b>Client</b>\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "si2nFvYTJU",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
-          "_anchor": "image4-gz"
+          "_anchor": "testimonials2-h5"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".image-wrapper": {
+              "width": "50px",
+              "height": "50px",
+              "border-radius": "50%",
+              "margin-top": "5px",
+              "margin-right": "1rem",
+              "overflow": "hidden",
+              "img": {
+                "height": "100%",
+                "width": "100%",
+                "object-fit": "cover"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            ".mbr-text": {
+              "color": "#ffffff"
+            },
+            ".name": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "testimonials2",
+          "_customHTML": "<section class=\"testimonials2\" group=\"Testimonials\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons2\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Name\" name=\"showName\" checked>\n        <input type=\"checkbox\" title=\"Position\" name=\"showPosition\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#a26cc9\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n            <b>Respuestas de los usuarios</b></h3>\n        <div class=\"row justify-content-center\">\n            <div class=\"card col-12 col-md-6\">\n                <p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">1.-&nbsp;Sí, me parece que estas pueden ayudar a los usuarios.<br>2.-&nbsp;Creo que algodón sería un material adecuado para este caso.<br>3.- Parece cómodo, aunque capaz podría causar sudor.<br>4.-&nbsp;Depende de cómo lo promocionen y distibuyan, pero me parece una idea interesante. Ten en cuenta que puede ser un proceso largo para obtener licencia de venta.<br>5.-&nbsp;Creo que la aplicación podría mostrar otras cosas, como la cantidad de mediciones hechas en el día.<br>6.-&nbsp;Sí, se ve como una opción interesante y beneficiosa para los usarios.</p>\n                <div class=\"d-flex mb-md-0 mb-4\">\n                    <div class=\"image-wrapper\">\n                        <img src=\"@PROJECT_PATH@/assets/images/mbr-100x98.png\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"text-wrapper\">\n                        <p class=\"name mbr-fonts-style mb-1\" mbr-if=\"showName\" mbr-theme-style=\"display-4\" data-app-selector=\".name\"><b>José Hernández</b></p>\n                        <p class=\"position mbr-fonts-style\" mbr-if=\"showPosition\" mbr-theme-style=\"display-4\" data-app-selector=\".position\">\n                            <b>Client</b>\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card col-12 col-md-6\">\n                <p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">1.-&nbsp;&nbsp;<br>2.- Un material respirable, que no haga sudar.<br>3.- Sí, se ve agradable. Aunque también podría ser una pulsera.<br>4.-&nbsp; Sí.<br>5.-&nbsp;<br>6.-&nbsp;</p>\n                <div class=\"d-flex mb-md-0 mb-4\">\n                    <div class=\"image-wrapper\">\n                        <img src=\"@PROJECT_PATH@/assets/images/mbr-100x98.png\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"text-wrapper\">\n                        <p class=\"name mbr-fonts-style mb-1\" mbr-if=\"showName\" mbr-theme-style=\"display-4\" data-app-selector=\".name\"><b>Karen García</b></p>\n                        <p class=\"position mbr-fonts-style\" mbr-if=\"showPosition\" mbr-theme-style=\"display-4\" data-app-selector=\".position\">\n                            <b>Client</b>\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "testimonials2-h6",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "si2oYBzC7q",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         },
         {
           "alias": false,
@@ -19666,11 +19777,11 @@
           "_name": "content5",
           "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#571164\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Referencias</b></h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    Enter your subtitle here\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">1.- Amazon (s.f.).&nbsp;2Pcs TTP223 TTP223B Jog Digital Touch Sensor Capacitive Touch Touch Switch Modules Accessories For Arduino 2-5.5V Power Supply [Online]. Disponible en:&nbsp;https://www.amazon.com.mx/TTP223B-Digital-Capacitive-Modules-Accessories/dp/B07L6PTTBM<br><br>2.-&nbsp;&nbsp;BricoGeek (s.f.). Arduino Pro Mini 328 - 5V/16MHz [Online]. Disponible en: https://tienda.bricogeek.com/arduino/233-arduino-pro-mini-328-5v-16mhz.html<br><br>3.- LiPolBattery (s.f.).&nbsp;LP401030 90mAh 3.7V Lithium Polymer Battery-with protection circuit and wires 50mm [Online]. Disponible en:&nbsp;https://www.lithium-polymer-battery.net/battery-picture/lp401030-90mah-3-7v-lithium-polymer-battery/#:~:text=70mAh%200.259Wh-,Battery%20Type%3A%20Lithium%20Polymer%20Battery%20Configuration%3A%201S1P%20Part%20Number%3A,%3A%200.259Wh%20Weight%3A%20appr.<br><br>4.- Octopart (s.f.). Maxim Integrated\n<br>DS18B20+ [Online]. Disponible en:&nbsp;https://octopart.com/ds18b20%2B-maxim+integrated-1010921#Specs<br><br>5.- Smart prototyping (s.f.).&nbsp;PULSE OXIMETER AND HEART RATE SENSOR (MAX30102) [Online]. Disponible en:&nbsp;https://www.smart-prototyping.com/Pulse-Oximeter-and-Heart-Rate-Sensor-MAX30102#:~:text=Interface%3A%20I2C%20Interface,Weight%3A%201.1g<br><br>6.- SUNHOKEY (s.f.). HC-05 Wireless Bluetooth RF Transceiver Module [Online]. Disponible en:&nbsp;https://sunhokey.cn/collections/bluetooth-module/products/hc-05</p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "shWuOlQ8wS",
+          "_anchor": "content5-h1",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content5-h1"
+          "_params": {}
         },
         {
           "alias": false,

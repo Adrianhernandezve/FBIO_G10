@@ -14171,6 +14171,27 @@ a {
 .cid-siDaDTO6OX .mbr-text {
   color: #ffffff;
 }
+.cid-siDOPN2dqz {
+  padding-top: 5rem;
+  padding-bottom: 0rem;
+  background-color: #be61ff;
+}
+.cid-siDOM1J0BX {
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+  background-color: #be61ff;
+}
+@media (max-width: 991px) {
+  .cid-siDOM1J0BX .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-siDOM1J0BX .row {
+  flex-direction: row-reverse;
+}
+.cid-siDOM1J0BX img {
+  width: 100%;
+}
 .cid-siy6xhRfXF {
   padding-top: 5rem;
   padding-bottom: 5rem;

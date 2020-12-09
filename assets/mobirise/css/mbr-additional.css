@@ -14171,21 +14171,21 @@ a {
 .cid-siDaDTO6OX .mbr-text {
   color: #ffffff;
 }
-.cid-siH5VHBbgb {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+.cid-siHkCP7Qha {
+  padding-top: 1rem;
+  padding-bottom: 3rem;
   background-color: #571164;
 }
-@media (max-width: 991px) {
-  .cid-siH5VHBbgb .image-wrapper {
-    margin-bottom: 1rem;
-  }
-}
-.cid-siH5VHBbgb .row {
-  flex-direction: row-reverse;
-}
-.cid-siH5VHBbgb img {
+.cid-siHkCP7Qha .video-wrapper iframe {
   width: 100%;
+}
+.cid-siHkCP7Qha .mbr-section-title,
+.cid-siHkCP7Qha .mbr-section-subtitle,
+.cid-siHkCP7Qha .mbr-text {
+  text-align: center;
+}
+.cid-siHkCP7Qha .mbr-text {
+  color: #ffffff;
 }
 .cid-siDOPN2dqz {
   padding-top: 5rem;
